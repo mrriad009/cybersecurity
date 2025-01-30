@@ -16,8 +16,12 @@ A website is made of multiple components:
 ## 2️⃣ How Websites Communicate (HTTP & HTTPS)
 Websites use the **HTTP** protocol to communicate with users. Think of it as a conversation between your browser and a web server.
 
-## 🔹 HTTP Response Example (What the server replies with):
+### 🔹 HTTP Request Example (What your browser sends):
+GET /index.html HTTP/1.1
+Host: example.com
+User-Agent: Mozilla/5.0
 
+### 🔹 HTTP Response Example (What the server replies with):
 HTTP/1.1 200 OK
 Content-Type: text/html
 <html>
@@ -29,7 +33,6 @@ Content-Type: text/html
 ---
 
 ## 3️⃣ Understanding URLs (Uniform Resource Locator)
-
 A URL is the **address** of a webpage. Example:
 
 https://example.com:443/login.php?id=1
@@ -44,7 +47,6 @@ https://example.com:443/login.php?id=1
 ---
 
 ## 4️⃣ Understanding Cookies & Sessions
-
 Websites use **cookies** and **sessions** to remember users.
 
 - **Cookies** are stored in your browser and sent with every request.
